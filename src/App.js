@@ -1,11 +1,12 @@
 import React from 'react';
+import Payment from './components/payment';
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-     <h1> first react project </h1>
-     <p>ttjjtjjtjtjjtj</p>
-    </div>
+    <Routes>
+      <Route path='/' element= {<Payment />} />
+    </Routes>
   );
 }
 
